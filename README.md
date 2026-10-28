@@ -39,13 +39,13 @@ Hiver de l'ère Taishō. Au col de Shirakami, trois voyageurs ont disparu en dix
 - **Tableau de bord MJ** (macro *Neige · Tableau de bord*) : conclusions et préparatifs cochables, masque de Kōta en un clic, aube avancée automatiquement à chaque fin de round, foyers allumés/éteints sur la scène, régénération de Hyōe automatique loin du feu, Enneigés appelés par une ouverture (BDP dépensés, tokens placés, ajoutés au combat) et fondus près du feu, civils jetés dehors qui gèlent, soin du Dr Ryōan, alertes à 60 et 25 PV.
 - **Macros** : tableau de bord, guide, montrer une pièce, démasquer, appel de la neige, soin, foyer le plus proche.
 
-Les illustrations de la 1.0 sont des **brouillons générés procéduralement** (`npm run art`). Elles ont leurs chemins et dimensions définitifs : des peintures finales pourront les remplacer fichier pour fichier sans reconstruire le compendium.
+Les **72 illustrations** (portraits et tokens, cartes, objets, pièces à remettre, pastilles et couverture) suivent le style de l'anime **Demon Slayer / Kimetsu no Yaiba**, avec des personnages originaux. Elles sont issues de 47 illustrations générées individuellement avec l'outil imagegen intégré. Les chemins et dimensions du module sont conservés ; les tokens sont dérivés des portraits, les cartes reprennent les plans des scènes et le texte français des indices est composé depuis les journaux pour préserver les dates et les heures. Les sources et les prompts sont conservés dans [`tools/art/`](tools/art/README.md).
 
 ## Développement
 
 ```bash
 npm install
-npm run art       # régénère les images brouillons dans assets/
+npm run art       # prépare les 72 images finales depuis les illustrations conservées
 npm run build     # reconstruit packs/aventure depuis src/
 npm run validate  # vérifie images, références du pack, liens, scènes et murs
 npm run release:check # vérifie versions, URLs et notes de version

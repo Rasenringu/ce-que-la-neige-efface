@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.0
+
+- Remplacement des 72 images brouillons par des illustrations dans le style de l'anime Demon Slayer : 16 portraits et leurs tokens transparents, cartes et plan MJ, objets et pouvoirs, six pièces à remettre, onze pastilles et couverture.
+- Conservation des chemins et dimensions, des plans de scène et du texte exact des indices. Sources générées et prompts conservés ; `npm run art` prépare les images finales sans rétablir les brouillons.
+
 ## 1.0.0
 
 Première version publique.

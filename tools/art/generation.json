@@ -1,0 +1,293 @@
+{
+  "generator": "built-in image_gen",
+  "source_count": 47,
+  "output_count": 72,
+  "entries": [
+    {
+      "id": "portraits/akane",
+      "source": "generated/portraits/akane.webp",
+      "prompt": "Use case: stylized-concept. Style: Demon Slayer / Kimetsu no Yaiba television anime, polished 2D animation key visual, bold variable black ink contours, expressive faceted anime eyes, crisp two-tone cel shading, delicate linework in fabric, atmospheric hand-painted background, rich Taisho-era Japan costume design. Original scenario character, not a canonical cast member. No photorealism, 3D, chibi, western cartoon, writing, logos or watermark. Asset type: square 1:1 RPG character bust portrait, head and shoulders, head fully inside middle 65% of image for circular token cropping, face centered at x50% y43%, no frame. Subject: Akane Hojo, 23 year old Japanese woman, strong protective stance, warm skin, amber eyes, dark auburn hair in a high ponytail, serious determined expression, black high-collared Demon Slayer Corps uniform under vermilion haori with elegant golden flame hems. Warm ember particles across a dark crimson painted backdrop, restrained snowfall and blue rim light. Katana hilt near lower corner. Preserve mature feminine face and practical clothing.",
+      "transparent_background": false
+    },
+    {
+      "id": "portraits/tetsuya",
+      "source": "generated/portraits/tetsuya.webp",
+      "prompt": "Use case: stylized-concept. Style: Demon Slayer / Kimetsu no Yaiba television anime, polished 2D animation key visual, bold variable black ink contours, expressive faceted anime eyes, crisp two-tone cel shading, delicate linework in fabric, atmospheric hand-painted background, rich Taisho-era Japan costume design. Original scenario character, not a canonical cast member. No photorealism, 3D, chibi, western cartoon, writing, logos or watermark. Asset type: square 1:1 RPG character bust portrait, head and shoulders, face centered at x50% y43%, keep the entire face within the middle 60% for a circular token, no frame. Subject: Tetsuya Mibu, 21 year old Japanese man, calm focused navy blue eyes, tousled short black hair, black high-collared Corps uniform under indigo haori patterned with elegant white seigaiha waves, katana hilt in lower corner, natural adult proportions. Backdrop: a cold mountain stream with stylized flowing blue water, indigo shadows and snow, subtle reflected cyan light.",
+      "transparent_background": false
+    },
+    {
+      "id": "portraits/shion",
+      "source": "generated/portraits/shion.webp",
+      "prompt": "Use case: stylized-concept. Style: Demon Slayer / Kimetsu no Yaiba television anime, polished 2D animation key visual, bold variable black ink contours, expressive faceted anime eyes, crisp two-tone cel shading, delicate linework in fabric, atmospheric hand-painted background, rich Taisho-era Japan costume design. Original scenario character, not a canonical cast member. No photorealism, 3D, chibi, western cartoon, writing, logos or watermark. Asset type: square 1:1 RPG character bust portrait, head and shoulders, face centered at x50% y43%, keep the entire face within the middle 60% for a circular token, no frame. Subject: Shion Kirishima, 19 year old Japanese woman, pale skin, narrow observant gray violet eyes, straight chin-length dark lavender bob with uneven fringe, reserved expression, black Corps uniform beneath silver gray haori with drifting mist hems, small gray ribbon at collar. Backdrop: layered blue gray mountain fog with a few black pine silhouettes and snowflakes, soft silver rim lighting.",
+      "transparent_background": false
+    },
+    {
+      "id": "portraits/masaomi",
+      "source": "generated/portraits/masaomi.webp",
+      "prompt": "Use case: stylized-concept. Style: Demon Slayer / Kimetsu no Yaiba television anime, polished 2D animation key visual, bold variable black ink contours, expressive faceted anime eyes, crisp two-tone cel shading, delicate linework in fabric, atmospheric hand-painted background, rich Taisho-era Japan costume design. Original scenario character, not a canonical cast member. No photorealism, 3D, chibi, western cartoon, writing, logos or watermark. Asset type: square 1:1 RPG character bust portrait, head and shoulders, face centered at x50% y43%, keep the entire face within the middle 60% for a circular token, no frame. Subject: Masaomi Kuze, 29 year old Japanese man, tan skin, neat side parted black hair, thin round wire spectacles, thoughtful intelligent expression, sharp green eyes, black Corps uniform under forest green haori with fine serpent scale pattern, a simple medical satchel strap. Backdrop: dark snowy cedar forest with subtle pale green serpentine ornamental curves, cool teal rim light.",
+      "transparent_background": false
+    },
+    {
+      "id": "portraits/haru",
+      "source": "generated/portraits/haru.webp",
+      "prompt": "Use case: stylized-concept. Style: Demon Slayer / Kimetsu no Yaiba television anime, polished 2D animation key visual, bold variable black ink contours, expressive faceted anime eyes, crisp two-tone cel shading, delicate linework in fabric, atmospheric hand-painted background, rich Taisho-era Japan costume design. Original scenario character, not a canonical cast member. No photorealism, 3D, chibi, western cartoon, writing, logos or watermark. Asset type: square 1:1 RPG character bust portrait, head and shoulders, face centered at x50% y43%, keep the entire face within the middle 60% for a circular token, no frame. Subject: Haru Imai, 26 year old Japanese man, friendly mature expressive face, weathered tan skin, warm brown eyes, tousled chestnut brown hair, reassuring smile, black Corps uniform beneath white and pale ice blue snowflake haori, winter mountain guide with practical scarf. Backdrop: snowflakes across layered icy blue Shirakami mountains at dawn, pale blue reflected light.",
+      "transparent_background": false
+    },
+    {
+      "id": "portraits/fuyuko",
+      "source": "generated/portraits/fuyuko.webp",
+      "prompt": "Use case: stylized-concept. Style: Demon Slayer / Kimetsu no Yaiba television anime, polished 2D animation key visual, bold variable black ink contours, expressive faceted anime eyes, crisp two-tone cel shading, delicate linework in fabric, atmospheric hand-painted background, rich Taisho-era Japan costume design. Original scenario character, not a canonical cast member. No photorealism, 3D, chibi, western cartoon, writing, logos or watermark. Asset type: square 1:1 RPG character bust portrait, head and shoulders, face centered at x50% y43%, keep the entire face within the middle 60% for a circular token, no frame. Subject: Fuyuko Hamura, 50 year old Japanese woman, innkeeper, mature lined face clearly middle aged, tired compassionate brown eyes carrying guilt, dark gray hair in a practical bun, indigo kimono with plain white working apron, hands mostly below crop, dignified serious expression. Backdrop: warm amber lantern light in an old wooden Japanese mountain inn, cold blue snow visible through shoji.",
+      "transparent_background": false
+    },
+    {
+      "id": "portraits/yaeko",
+      "source": "generated/portraits/yaeko.webp",
+      "prompt": "Use case: stylized-concept. Style: Demon Slayer / Kimetsu no Yaiba television anime, polished 2D animation key visual, bold variable black ink contours, expressive faceted anime eyes, crisp two-tone cel shading, delicate linework in fabric, atmospheric hand-painted background, rich Taisho-era Japan costume design. Original scenario character, not a canonical cast member. No photorealism, 3D, chibi, western cartoon, writing, logos or watermark. Asset type: square 1:1 RPG character bust portrait, head and shoulders, face centered at x50% y43%, keep the entire face within the middle 60% for a circular token, no frame. Subject: Yaeko, 17 year old Japanese girl, inn servant, bright brown eyes and a slightly worried friendly expression, dark brown hair tucked under a muted rose working kerchief, modest dusty terracotta kimono and white apron, age appropriate everyday clothes. Backdrop: the Yukimi-ya kitchen with warm stove glow, wooden shelves and a snowy window, gentle amber rim light.",
+      "transparent_background": false
+    },
+    {
+      "id": "portraits/ryoan",
+      "source": "generated/portraits/ryoan.webp",
+      "prompt": "Use case: stylized-concept. Style: Demon Slayer / Kimetsu no Yaiba television anime, polished 2D animation key visual, bold variable black ink contours, expressive faceted anime eyes, crisp two-tone cel shading, delicate linework in fabric, atmospheric hand-painted background, rich Taisho-era Japan costume design. Original scenario character, not a canonical cast member. No photorealism, 3D, chibi, western cartoon, writing, logos or watermark. Asset type: square 1:1 RPG character bust portrait, head and shoulders, face centered at x50% y43%, keep the entire face within the middle 60% for a circular token, no frame. Subject: Dr Ryoan Shimizu, 47 year old Japanese man, itinerant physician, receding hairline and gray hair at temples, small round wire glasses, tired intelligent dark eyes, slight stubble, deeply worried but kind adult face, dark brown layered traveling kimono and medicine bag strap. Backdrop: a dim mountain inn with neatly arranged medicine bottles and soft warm lantern light against blue winter shadows.",
+      "transparent_background": false
+    },
+    {
+      "id": "portraits/onoda",
+      "source": "generated/portraits/onoda.webp",
+      "prompt": "Use case: stylized-concept. Style: Demon Slayer / Kimetsu no Yaiba television anime, polished 2D animation key visual, bold variable black ink contours, expressive faceted anime eyes, crisp two-tone cel shading, delicate linework in fabric, atmospheric hand-painted background, rich Taisho-era Japan costume design. Original scenario character, not a canonical cast member. No photorealism, 3D, chibi, western cartoon, writing, logos or watermark. Asset type: square 1:1 RPG character bust portrait, head and shoulders, face centered at x50% y43%, keep the entire face within the middle 60% for a circular token, no frame. Subject: Sergeant Masaru Onoda, 41 year old Japanese man, stern stocky gendarme with weathered tan face, trim black mustache, navy Taisho-era police peaked cap with small brass badge, formal dark navy police tunic with brass buttons, disciplined expression, no modern police equipment. Backdrop: a snow-streaked inn doorway, crisp cold blue rim light and restrained warm lantern highlights.",
+      "transparent_background": false
+    },
+    {
+      "id": "portraits/tae",
+      "source": "generated/portraits/tae.webp",
+      "prompt": "Use case: stylized-concept. Style: Demon Slayer / Kimetsu no Yaiba television anime, polished 2D animation key visual, bold variable black ink contours, expressive faceted anime eyes, crisp two-tone cel shading, delicate linework in fabric, atmospheric hand-painted background, rich Taisho-era Japan costume design. Original scenario character, not a canonical cast member. No photorealism, 3D, chibi, western cartoon, writing, logos or watermark. Asset type: square 1:1 RPG character bust portrait, head and shoulders, face centered at x50% y43%, keep the entire face within the middle 60% for a circular token, no frame. Subject: Tae Kanzaki, 32 year old Japanese woman, anxious merchant's wife, mature face with worried dark eyes, black hair pinned in a traditional bun, deep plum modest winter kimono with pale inner collar, one hand near collar in concern, no sword. Backdrop: a warmly lit Japanese inn with blurred snowy shoji, dark purple shadows and amber light.",
+      "transparent_background": false
+    },
+    {
+      "id": "portraits/hina",
+      "source": "generated/portraits/hina.webp",
+      "prompt": "Use case: stylized-concept. Style: Demon Slayer / Kimetsu no Yaiba television anime, polished 2D animation key visual, bold variable black ink contours, expressive faceted anime eyes, crisp two-tone cel shading, delicate linework in fabric, atmospheric hand-painted background, rich Taisho-era Japan costume design. Original scenario character, not a canonical cast member. No photorealism, 3D, chibi, western cartoon, writing, logos or watermark. Asset type: square 1:1 RPG character bust portrait, head and shoulders, face centered at x50% y43%, keep the entire face within the middle 60% for a circular token, no frame. Subject: Hina Kanzaki, seven year old Japanese girl, unmistakably a small child, round cheeks, short straight black bob with bangs, large curious brown eyes, red kimono with tiny white flower motifs, shy warm smile, holding a colored pencil low in frame, entirely age appropriate modest clothing. Backdrop: warm inn hearth glow with cream washi paper and soft dark wood behind her, gentle snow-blue window light.",
+      "transparent_background": false
+    },
+    {
+      "id": "portraits/kota",
+      "source": "generated/portraits/kota.webp",
+      "prompt": "Use case: stylized-concept. Style: Demon Slayer / Kimetsu no Yaiba television anime, polished 2D animation key visual, bold variable black ink contours, expressive faceted anime eyes, crisp two-tone cel shading, delicate linework in fabric, atmospheric hand-painted background, rich Taisho-era Japan costume design. Original scenario character, not a canonical cast member. No photorealism, 3D, chibi, western cartoon, writing, logos or watermark. Asset type: square 1:1 RPG character bust portrait, head and shoulders, face centered at x50% y43%, keep the entire face within the middle 60% for a circular token, no frame. Subject: Kota Hamura, young adult Japanese man in his early twenties, short tidy black hair, warm brown eyes, natural pale human skin, charming polite small smile, brown traveling haori over an ochre kimono and simple scarf, completely human appearance without fangs or demon markings, no visible breath mist. Backdrop: a wooden Japanese inn corridor in warm lantern light with subtle cool blue snowy window light.",
+      "transparent_background": false
+    },
+    {
+      "id": "portraits/hyoe",
+      "source": "generated/portraits/hyoe.webp",
+      "prompt": "Use case: stylized-concept. Style: Demon Slayer / Kimetsu no Yaiba television anime, polished 2D animation key visual, bold variable black ink contours, expressive faceted anime eyes, crisp two-tone cel shading, delicate linework in fabric, atmospheric hand-painted background, rich Taisho-era Japan costume design. Original scenario character, not a canonical cast member. No photorealism, 3D, chibi, western cartoon, writing, logos or watermark. Asset type: square 1:1 RPG character bust portrait, head and shoulders, face centered at x50% y43%, keep the entire face within the middle 60% for a circular token, no frame. Subject: Hyoe the faceless mountain guide revealed as a tragic winter demon, mature male face, ice blue pale cracked skin, long wild snow white hair, narrow glowing crimson slit eyes, small sharp fangs in a grim sorrowful expression, frost cracks across cheeks, ragged straw rain cape over old ochre guide clothing, threatening but sad, no blood or gore. Backdrop: swirling blue white blizzard over a dark mountain, cold moon rim light and frost particles.",
+      "transparent_background": false
+    },
+    {
+      "id": "portraits/kozo",
+      "source": "generated/portraits/kozo.webp",
+      "prompt": "Use case: stylized-concept. Style: Demon Slayer / Kimetsu no Yaiba television anime, polished 2D animation key visual, bold variable black ink contours, expressive faceted anime eyes, crisp two-tone cel shading, delicate linework in fabric, atmospheric hand-painted background, rich Taisho-era Japan costume design. Original scenario character, not a canonical cast member. No photorealism, 3D, chibi, western cartoon, writing, logos or watermark. Asset type: square 1:1 RPG character bust portrait, head and shoulders, face centered at x50% y43%, keep the entire face within the middle 60% for a circular token, no frame. Subject: Kozo, gaunt starving adult male mountain demon, sallow gray olive skin, disheveled black hair, narrow red predatory eyes, subtle dark red markings below the eyes, visible small sharp fangs, ragged brown kimono, hunched hungry posture, one claw near bottom edge, menacing without blood or gore. Backdrop: a sinister snowy pine forest, deep charcoal shadows and cold blue rim light.",
+      "transparent_background": false
+    },
+    {
+      "id": "portraits/enneige",
+      "source": "generated/portraits/enneige.webp",
+      "prompt": "Use case: stylized-concept. Style: Demon Slayer / Kimetsu no Yaiba television anime, polished 2D animation key visual, bold variable black ink contours, expressive faceted anime eyes, crisp two-tone cel shading, delicate linework in fabric, atmospheric hand-painted background, rich Taisho-era Japan costume design. Original scenario character, not a canonical cast member. No photorealism, 3D, chibi, western cartoon, writing, logos or watermark. Asset type: square 1:1 RPG character bust portrait, head and shoulders, face centered at x50% y43%, keep the entire face within the middle 60% for a circular token, no frame. Subject: an Enneige, eerie adult humanoid snow construct summoned by Hyoe, head and shoulders sculpted entirely from white powder snow and translucent blue ice, hairless smooth head, hollow dark blue eye sockets glowing faintly, long frost cracks across face and neck, indistinct snow-shroud shoulders, mournful expression, clearly a snow creature rather than a human in white clothing. Backdrop: a dark icy blue swirling blizzard, detailed ice crystals catching silver moonlight.",
+      "transparent_background": false
+    },
+    {
+      "id": "portraits/kuma",
+      "source": "generated/portraits/kuma.webp",
+      "prompt": "Use case: stylized-concept. Style: Demon Slayer / Kimetsu no Yaiba television anime, polished 2D animation key visual, bold variable black ink contours, expressive faceted anime eyes, crisp two-tone cel shading, delicate linework in fabric, atmospheric hand-painted background, rich Taisho-era Japan costume design. Original scenario character, not a canonical cast member. No photorealism, 3D, chibi, western cartoon, writing, logos or watermark. Asset type: square 1:1 RPG character bust portrait, head and shoulders, face centered at x50% y43%, keep the entire face within the middle 60% for a circular token, no frame. Subject: Kuma, elderly Japanese Akita dog, animal only, russet golden thick fur, cream muzzle and cheeks, upright triangular ears, warm dark eyes, black nose, slightly graying brow, plain woven collar, alert protective expression, believable canine anatomy rendered in anime linework, head and chest centered. Backdrop: a warmly lit wooden mountain inn doorway with snow outside, amber highlights and blue shadows.",
+      "transparent_background": false
+    },
+    {
+      "id": "items/offrande",
+      "source": "generated/items/offrande.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square single-object RPG inventory icon. Demon Slayer / Kimetsu no Yaiba anime prop illustration, rich hand-inked black contours, crisp cel shaded highlights, painted washi and dark indigo vignette backdrop, Taisho-era Japanese materials. Subject: a small dark red lacquer bowl of frozen white rice beside a tiny handmade straw doll and a folded apology paper, frost crystals on the humble offering, tender shrine mood. Large immediately recognizable centered silhouette, object fills middle 78%, uncluttered, no text, no border, no logos, no watermark, no photorealism or 3D.",
+      "transparent_background": false
+    },
+    {
+      "id": "items/plaque",
+      "source": "generated/items/plaque.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square single-object RPG inventory icon. Demon Slayer / Kimetsu no Yaiba anime prop illustration, rich hand-inked black contours, crisp cel shaded highlights, painted washi and dark indigo vignette backdrop, Taisho-era Japanese materials. Subject: one narrow vertically oriented aged lacquered wooden mountain guide badge, split with a jagged crack, old cord through its top hole, faded ink marks rather than readable writing, gold brown wood and ice on edges. Large immediately recognizable centered silhouette, object fills middle 78%, uncluttered, no text, no border, no logos, no watermark, no photorealism or 3D.",
+      "transparent_background": false
+    },
+    {
+      "id": "items/glycine",
+      "source": "generated/items/glycine.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square single-object RPG inventory icon. Demon Slayer / Kimetsu no Yaiba anime prop illustration, rich hand-inked black contours, crisp cel shaded highlights, painted washi and dark indigo vignette backdrop, Taisho-era Japanese materials. Subject: exactly three violet wisteria incense sticks resting diagonally in an open bamboo case, one curling elegant violet smoke ribbon and a tiny hanging wisteria blossom, clearly incense rather than just flowers. Large immediately recognizable centered silhouette, object fills middle 78%, uncluttered, no text, no border, no logos, no watermark, no photorealism or 3D.",
+      "transparent_background": false
+    },
+    {
+      "id": "items/cle",
+      "source": "generated/items/cle.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square single-object RPG inventory icon. Demon Slayer / Kimetsu no Yaiba anime prop illustration, rich hand-inked black contours, crisp cel shaded highlights, painted washi and dark indigo vignette backdrop, Taisho-era Japanese materials. Subject: a single old Taisho-era dark iron skeleton key with a round bow and two large square teeth, worn metal with warm lantern glints, diagonally centered. Large immediately recognizable centered silhouette, object fills middle 78%, uncluttered, no text, no border, no logos, no watermark, no photorealism or 3D.",
+      "transparent_background": false
+    },
+    {
+      "id": "items/griffes",
+      "source": "generated/items/griffes.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square single-object RPG inventory icon. Demon Slayer / Kimetsu no Yaiba anime prop illustration, rich hand-inked black contours, crisp cel shaded highlights, painted washi and dark indigo vignette backdrop, Taisho-era Japanese materials. Subject: a menacing ice blue demon hand making three long sweeping luminous claw slashes, graceful turquoise frost arcs across dark indigo, non-gory supernatural ability symbol. Large immediately recognizable centered silhouette, object fills middle 78%, uncluttered, no text, no border, no logos, no watermark, no photorealism or 3D.",
+      "transparent_background": false
+    },
+    {
+      "id": "items/eclats",
+      "source": "generated/items/eclats.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square single-object RPG inventory icon. Demon Slayer / Kimetsu no Yaiba anime prop illustration, rich hand-inked black contours, crisp cel shaded highlights, painted washi and dark indigo vignette backdrop, Taisho-era Japanese materials. Subject: five razor sharp translucent blue ice splinters radiating outward from a small central burst, sharp angular silhouettes, bright white facets, dramatic anime magical effect on midnight blue. Large immediately recognizable centered silhouette, object fills middle 78%, uncluttered, no text, no border, no logos, no watermark, no photorealism or 3D.",
+      "transparent_background": false
+    },
+    {
+      "id": "items/appel",
+      "source": "generated/items/appel.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square single-object RPG inventory icon. Demon Slayer / Kimetsu no Yaiba anime prop illustration, rich hand-inked black contours, crisp cel shaded highlights, painted washi and dark indigo vignette backdrop, Taisho-era Japanese materials. Subject: a spiral blizzard of ice blue snow curling into a small faceless humanoid snow apparition, supernatural summoning icon, bold white curling wind lines against deep midnight indigo. Large immediately recognizable centered silhouette, object fills middle 78%, uncluttered, no text, no border, no logos, no watermark, no photorealism or 3D.",
+      "transparent_background": false
+    },
+    {
+      "id": "items/etreinte",
+      "source": "generated/items/etreinte.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square single-object RPG inventory icon. Demon Slayer / Kimetsu no Yaiba anime prop illustration, rich hand-inked black contours, crisp cel shaded highlights, painted washi and dark indigo vignette backdrop, Taisho-era Japanese materials. Subject: one long pale icy demon hand reaching forward from curling freezing mist, five elongated fingers, blue frost encasing the hand, a threatening freezing grasp without gore. Large immediately recognizable centered silhouette, object fills middle 78%, uncluttered, no text, no border, no logos, no watermark, no photorealism or 3D.",
+      "transparent_background": false
+    },
+    {
+      "id": "items/regeneration",
+      "source": "generated/items/regeneration.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square single-object RPG inventory icon. Demon Slayer / Kimetsu no Yaiba anime prop illustration, rich hand-inked black contours, crisp cel shaded highlights, painted washi and dark indigo vignette backdrop, Taisho-era Japanese materials. Subject: a cracked white ice heart re-forming as frost crystals knit together around a tiny ruby red glowing core, circular curling snow ribbons, clearly supernatural cold regeneration. Large immediately recognizable centered silhouette, object fills middle 78%, uncluttered, no text, no border, no logos, no watermark, no photorealism or 3D.",
+      "transparent_background": false
+    },
+    {
+      "id": "items/visage",
+      "source": "generated/items/visage.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square single-object RPG inventory icon. Demon Slayer / Kimetsu no Yaiba anime prop illustration, rich hand-inked black contours, crisp cel shaded highlights, painted washi and dark indigo vignette backdrop, Taisho-era Japanese materials. Subject: a beautiful pale human theatrical face shell peeling away to reveal cold blue frost and one sinister crimson eye, fine crack through the mask, elegant tragic identity theft motif, no gore. Large immediately recognizable centered silhouette, object fills middle 78%, uncluttered, no text, no border, no logos, no watermark, no photorealism or 3D.",
+      "transparent_background": false
+    },
+    {
+      "id": "handouts/mission",
+      "source": "generated/handouts/mission.webp",
+      "prompt": "Use case: stylized-concept. Asset type: portrait 10:13 in-world RPG handout, flat straight overhead view filling the entire rectangular image. Demon Slayer / Kimetsu no Yaiba anime painted prop art with fine ink contours, cel shaded shadows, warm washi fibers and subtle age stains, period Taisho Japan. An official folded mission scroll, pale cream washi with restrained wisteria branch in the top right margin, a small black kasugai crow perched on a red cord at bottom right and faint Corps seal near the lower edge, dark vermilion decorative rule at the top. The large central writing area from x10% to90% and y18% to82% MUST be completely blank pale ivory paper for later typesetting. Decorative illustration only in the outer 8% margins and bottom 12%. Do not generate any writing, text, letters, symbols resembling words, logos or watermark. No perspective tilt.",
+      "transparent_background": false
+    },
+    {
+      "id": "handouts/lettre",
+      "source": "generated/handouts/lettre.webp",
+      "prompt": "Use case: stylized-concept. Asset type: portrait 10:13 in-world RPG handout, flat straight overhead view filling the entire rectangular image. Demon Slayer / Kimetsu no Yaiba anime painted prop art with fine ink contours, cel shaded shadows, warm washi fibers and subtle age stains, period Taisho Japan. A tender personal letter on pale ivory washi with gentle folding creases, corners lit by warm lantern light, a small chestnut and tied envelope tucked into the bottom margin, brown ink atmosphere. The large central writing area from x10% to90% and y18% to82% MUST be completely blank pale ivory paper for later typesetting. Decorative illustration only in the outer 8% margins and bottom 12%. Do not generate any writing, text, letters, symbols resembling words, logos or watermark. No perspective tilt.",
+      "transparent_background": false
+    },
+    {
+      "id": "handouts/registre",
+      "source": "generated/handouts/registre.webp",
+      "prompt": "Use case: stylized-concept. Asset type: portrait 10:13 in-world RPG handout, flat straight overhead view filling the entire rectangular image. Demon Slayer / Kimetsu no Yaiba anime painted prop art with fine ink contours, cel shaded shadows, warm washi fibers and subtle age stains, period Taisho Japan. One aged yellowed inn registry page with a blue cloth binding edge at the left, a subtle faded red accounting margin rule, faint creases and amber lantern shadow, small wooden inkstone at the bottom edge. The large central writing area from x10% to90% and y18% to82% MUST be completely blank pale ivory paper for later typesetting. Decorative illustration only in the outer 8% margins and bottom 12%. Do not generate any writing, text, letters, symbols resembling words, logos or watermark. No perspective tilt.",
+      "transparent_background": false
+    },
+    {
+      "id": "handouts/dessin",
+      "source": "generated/handouts/dessin.webp",
+      "prompt": "Use case: illustration-story. Asset type: portrait 10:13 RPG clue handout: flat overhead closeup of a seven year old Japanese child's colored-pencil drawing on worn ivory paper. This is an in-world prop within a Demon Slayer anime, hand painted paper texture and convincing naive wobbly pencil strokes, not a professionally drawn anime portrait. In the middle are exactly FIVE smiling stick people arranged around a glowing orange square Japanese irori hearth. FOUR people on the left in blue, red, green and violet clothes EACH have a distinct pale blue breath cloud coming out of their mouths. The FIFTH person at the far right, dressed brown with short black hair, has absolutely NO breath cloud and a completely clear blank area beside his mouth: this is the essential clue. A small orange Akita dog is barking at the brown figure at lower left. Snow dots at the top, warm hearth at the bottom. No other figures. Add only the exact small handwritten labels 'Kōta-niisan' below the brown figure and 'Hina, 7 ans' at bottom. All five faces must be fully visible, especially the empty space around the brown figure's mouth. No gore, no logos, no watermark.",
+      "transparent_background": false
+    },
+    {
+      "id": "handouts/carnet",
+      "source": "generated/handouts/carnet.webp",
+      "prompt": "Use case: stylized-concept. Asset type: portrait 10:13 in-world RPG handout, flat straight overhead view filling the entire rectangular image. Demon Slayer / Kimetsu no Yaiba anime painted prop art with fine ink contours, cel shaded shadows, warm washi fibers and subtle age stains, period Taisho Japan. An open police pocket notebook page, slightly gray cream ruled paper, thin blue horizontal guide lines, a red vertical margin near left edge, a dark navy notebook binding and a brass pencil only at the outer edges, official Taisho-era gendarme prop. The large central writing area from x10% to90% and y18% to82% MUST be completely blank pale ivory paper for later typesetting. Decorative illustration only in the outer 8% margins and bottom 12%. Do not generate any writing, text, letters, symbols resembling words, logos or watermark. No perspective tilt.",
+      "transparent_background": false
+    },
+    {
+      "id": "handouts/billet",
+      "source": "generated/handouts/billet.webp",
+      "prompt": "Use case: stylized-concept. Asset type: portrait 10:13 in-world RPG handout, flat straight overhead view filling the entire rectangular image. Demon Slayer / Kimetsu no Yaiba anime painted prop art with fine ink contours, cel shaded shadows, warm washi fibers and subtle age stains, period Taisho Japan. An antique Japanese third class railway ticket enlarged on a warm ivory paper sheet, a large flat pale ochre ticket rectangle occupying x7% to93% and y20% to80%, clipped concave corners, a tiny punched hole along the lower edge and a red date stamp circle at lower right left blank inside. Keep the entire ticket face plain for typesetting. The large central writing area from x10% to90% and y18% to82% MUST be completely blank pale ivory paper for later typesetting. Decorative illustration only in the outer 8% margins and bottom 12%. Do not generate any writing, text, letters, symbols resembling words, logos or watermark. No perspective tilt.",
+      "transparent_background": false
+    },
+    {
+      "id": "icons/zone-a",
+      "source": "generated/icons/zone-a.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square VTT location marker icon with a genuinely transparent background outside the circular medallion. Demon Slayer / Kimetsu no Yaiba anime accessory art, bold hand inked contours, crisp cel shading. One perfectly centered circular deep vermilion lacquer and antique brass medallion with a thick clear rim and subtle wisteria petal engraved motifs confined to its rim. Large FLAT EMPTY cream circular center occupying 60% of diameter, reserved for a readable location letter added later. No letter or writing. Medallion fully inside the canvas with 8% transparent margin on all sides, no drop shadow extending to the image edges, no scene, no logo, no watermark. Variation: location A.",
+      "transparent_background": true
+    },
+    {
+      "id": "icons/zone-b",
+      "source": "generated/icons/zone-b.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square VTT location marker icon with a genuinely transparent background outside the circular medallion. Demon Slayer / Kimetsu no Yaiba anime accessory art, bold hand inked contours, crisp cel shading. One perfectly centered circular deep vermilion lacquer and antique brass medallion with a thick clear rim and subtle wisteria petal engraved motifs confined to its rim. Large FLAT EMPTY cream circular center occupying 60% of diameter, reserved for a readable location letter added later. No letter or writing. Medallion fully inside the canvas with 8% transparent margin on all sides, no drop shadow extending to the image edges, no scene, no logo, no watermark. Variation: location B.",
+      "transparent_background": true
+    },
+    {
+      "id": "icons/zone-c",
+      "source": "generated/icons/zone-c.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square VTT location marker icon with a genuinely transparent background outside the circular medallion. Demon Slayer / Kimetsu no Yaiba anime accessory art, bold hand inked contours, crisp cel shading. One perfectly centered circular deep vermilion lacquer and antique brass medallion with a thick clear rim and subtle wisteria petal engraved motifs confined to its rim. Large FLAT EMPTY cream circular center occupying 60% of diameter, reserved for a readable location letter added later. No letter or writing. Medallion fully inside the canvas with 8% transparent margin on all sides, no drop shadow extending to the image edges, no scene, no logo, no watermark. Variation: location C.",
+      "transparent_background": true
+    },
+    {
+      "id": "icons/zone-d",
+      "source": "generated/icons/zone-d.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square VTT location marker icon with a genuinely transparent background outside the circular medallion. Demon Slayer / Kimetsu no Yaiba anime accessory art, bold hand inked contours, crisp cel shading. One perfectly centered circular deep vermilion lacquer and antique brass medallion with a thick clear rim and subtle wisteria petal engraved motifs confined to its rim. Large FLAT EMPTY cream circular center occupying 60% of diameter, reserved for a readable location letter added later. No letter or writing. Medallion fully inside the canvas with 8% transparent margin on all sides, no drop shadow extending to the image edges, no scene, no logo, no watermark. Variation: location D.",
+      "transparent_background": true
+    },
+    {
+      "id": "icons/zone-e",
+      "source": "generated/icons/zone-e.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square VTT location marker icon with a genuinely transparent background outside the circular medallion. Demon Slayer / Kimetsu no Yaiba anime accessory art, bold hand inked contours, crisp cel shading. One perfectly centered circular deep vermilion lacquer and antique brass medallion with a thick clear rim and subtle wisteria petal engraved motifs confined to its rim. Large FLAT EMPTY cream circular center occupying 60% of diameter, reserved for a readable location letter added later. No letter or writing. Medallion fully inside the canvas with 8% transparent margin on all sides, no drop shadow extending to the image edges, no scene, no logo, no watermark. Variation: location E.",
+      "transparent_background": true
+    },
+    {
+      "id": "icons/zone-f",
+      "source": "generated/icons/zone-f.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square VTT location marker icon with a genuinely transparent background outside the circular medallion. Demon Slayer / Kimetsu no Yaiba anime accessory art, bold hand inked contours, crisp cel shading. One perfectly centered circular deep vermilion lacquer and antique brass medallion with a thick clear rim and subtle wisteria petal engraved motifs confined to its rim. Large FLAT EMPTY cream circular center occupying 60% of diameter, reserved for a readable location letter added later. No letter or writing. Medallion fully inside the canvas with 8% transparent margin on all sides, no drop shadow extending to the image edges, no scene, no logo, no watermark. Variation: location F.",
+      "transparent_background": true
+    },
+    {
+      "id": "icons/zone-g",
+      "source": "generated/icons/zone-g.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square VTT location marker icon with a genuinely transparent background outside the circular medallion. Demon Slayer / Kimetsu no Yaiba anime accessory art, bold hand inked contours, crisp cel shading. One perfectly centered circular midnight indigo enamel and frosted silver medallion with a thick clear rim and subtle snowflake engraved motifs confined to its rim. Large FLAT EMPTY cream circular center occupying 60% of diameter, reserved for a readable location letter added later. No letter or writing. Medallion fully inside the canvas with 8% transparent margin on all sides, no drop shadow extending to the image edges, no scene, no logo, no watermark. Variation: location G.",
+      "transparent_background": true
+    },
+    {
+      "id": "icons/zone-h",
+      "source": "generated/icons/zone-h.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square VTT location marker icon with a genuinely transparent background outside the circular medallion. Demon Slayer / Kimetsu no Yaiba anime accessory art, bold hand inked contours, crisp cel shading. One perfectly centered circular midnight indigo enamel and frosted silver medallion with a thick clear rim and subtle snowflake engraved motifs confined to its rim. Large FLAT EMPTY cream circular center occupying 60% of diameter, reserved for a readable location letter added later. No letter or writing. Medallion fully inside the canvas with 8% transparent margin on all sides, no drop shadow extending to the image edges, no scene, no logo, no watermark. Variation: location H.",
+      "transparent_background": true
+    },
+    {
+      "id": "icons/zone-i",
+      "source": "generated/icons/zone-i.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square VTT location marker icon with a genuinely transparent background outside the circular medallion. Demon Slayer / Kimetsu no Yaiba anime accessory art, bold hand inked contours, crisp cel shading. One perfectly centered circular midnight indigo enamel and frosted silver medallion with a thick clear rim and subtle snowflake engraved motifs confined to its rim. Large FLAT EMPTY cream circular center occupying 60% of diameter, reserved for a readable location letter added later. No letter or writing. Medallion fully inside the canvas with 8% transparent margin on all sides, no drop shadow extending to the image edges, no scene, no logo, no watermark. Variation: location I.",
+      "transparent_background": true
+    },
+    {
+      "id": "icons/zone-j",
+      "source": "generated/icons/zone-j.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square VTT location marker icon with a genuinely transparent background outside the circular medallion. Demon Slayer / Kimetsu no Yaiba anime accessory art, bold hand inked contours, crisp cel shading. One perfectly centered circular midnight indigo enamel and frosted silver medallion with a thick clear rim and subtle snowflake engraved motifs confined to its rim. Large FLAT EMPTY cream circular center occupying 60% of diameter, reserved for a readable location letter added later. No letter or writing. Medallion fully inside the canvas with 8% transparent margin on all sides, no drop shadow extending to the image edges, no scene, no logo, no watermark. Variation: location J.",
+      "transparent_background": true
+    },
+    {
+      "id": "icons/zone-t",
+      "source": "generated/icons/zone-t.webp",
+      "prompt": "Use case: stylized-concept. Asset type: square VTT location marker icon with a genuinely transparent background outside the circular medallion. Demon Slayer / Kimetsu no Yaiba anime accessory art, bold hand inked contours, crisp cel shading. One perfectly centered circular midnight indigo enamel and frosted silver medallion with a thick clear rim and subtle snowflake engraved motifs confined to its rim. Large FLAT EMPTY cream circular center occupying 60% of diameter, reserved for a readable location letter added later. No letter or writing. Medallion fully inside the canvas with 8% transparent margin on all sides, no drop shadow extending to the image edges, no scene, no logo, no watermark. Variation: location T.",
+      "transparent_background": true
+    },
+    {
+      "id": "maps/auberge",
+      "source": "generated/maps/auberge.webp",
+      "prompt": "Use case: style-transfer. Asset type: playable VTT battlemap. Input image is the exact edit target and binding spatial blueprint. Repaint all the crude draft shapes into beautifully detailed Demon Slayer / Kimetsu no Yaiba anime background art: hand painted Japanese environments, crisp fine ink edges, cinematic blue snow against amber firelight, richly rendered wood, tatami, rocks, pine branches and frost. STRICT straight overhead orthographic view. Preserve the exact image aspect ratio, canvas extent, every wall, opening, room, hearth and path at its original normalized coordinate. Do not zoom, crop, rotate, move objects, change building footprints, add rooms, add a roof, use perspective, add a square grid, labels, writing, characters, tokens or watermark. Geography and walkability are essential. Canvas 40 by28 units (4000 by2800 final). Main rectangular roofless mountain inn extends x10% to65%, y17.857% to75%. Upper row y17.857%-39.286%: sleeping room x10%-30% with three blue futons, office x30%-45% with desk, kitchen x45%-65% with stove at (49%,22.857%). Lower row y39.286%-75%: stone entrance x10%-25% with brazier at(17.5%,51.786%), common tatami room x25%-50% with irori at(37.5%,55.357%), wooden bath room x50%-65% with round tub at(57.5%,50%) and boiler at(57.5%,70%). Separate small roofless ice storehouse x72.5%-90%, y3.571%-25%, entrance centered at(80%,25%), covered bundles and luggage inside, no graphic remains. Round rock-lined outdoor hot spring centered at(82.5%,57.143%). Snowy pine courtyard and paths around the same floorplan. Retain every doorway position exactly from reference. Make every surface refined anime painting while preserving the diagram's geometry.",
+      "transparent_background": false,
+      "input_role": "edit target and binding spatial reference",
+      "reference_path": "assets/maps/auberge.webp"
+    },
+    {
+      "id": "maps/col",
+      "source": "generated/maps/col.webp",
+      "prompt": "Use case: style-transfer. Asset type: playable VTT battlemap. Input image is the exact edit target and binding spatial blueprint. Repaint all the crude draft shapes into beautifully detailed Demon Slayer / Kimetsu no Yaiba anime background art: hand painted Japanese environments, crisp fine ink edges, cinematic blue snow against amber firelight, richly rendered wood, tatami, rocks, pine branches and frost. STRICT straight overhead orthographic view. Preserve the exact image aspect ratio, canvas extent, every wall, opening, room, hearth and path at its original normalized coordinate. Do not zoom, crop, rotate, move objects, change building footprints, add rooms, add a roof, use perspective, add a square grid, labels, writing, characters, tokens or watermark. Geography and walkability are essential. Canvas30 by18 units (3000 by1800 final). Snowy mountain pass path runs from bottom left to upper right through the exact original bends. Retain the square roofless jizo shelter precisely x63.333%-76.667%, y16.667%-38.889%, with a centered south doorway x66.667%-73.333% at y38.889%. Small weathered stone jizo with a red bib at (70%,23.333%), rice bowl offering nearby. Keep overturned wooden sled at (45%,56.667%), its dropped travel bundles nearby. Replace crude star-shaped pines with densely painted snow-laden pines at the exact same positions; preserve snowy rocks and northwest cliff. No human bodies, no gore. Clear passable trail, icy blue dusk, delicate windblown snow, strong readable overhead composition.",
+      "transparent_background": false,
+      "input_role": "edit target and binding spatial reference",
+      "reference_path": "assets/maps/col.webp"
+    },
+    {
+      "id": "art/cover",
+      "source": "generated/art/cover.webp",
+      "prompt": "Use case: illustration-story. Asset type: wide 16:9 illustrated cover for the French Demon Slayer fan RPG adventure 'Ce que la neige efface'. Demon Slayer / Kimetsu no Yaiba anime cinematic background painting with crisp black ink, sumptuous hand painted snowy Taisho-era mountains and indigo night atmosphere, warm amber lantern accents. A lonely traditional wooden Japanese mountain inn with heavy snowy roof on the RIGHT half, warm glowing windows and red paper lantern, dark snow-laden cedar forest, distant Shirakami mountain silhouettes, diagonal blizzard and a trail leading to the door. One small indistinct human silhouette in the doorway with no visible breath mist. LEFT half mostly dark blue negative space. Add the exact elegant large ivory French title 'Ce que la neige efface' at upper left, legible and within margins, and the smaller exact subtitle 'Un one-shot pour Breathe and Live'. Visually atmospheric and tragic, refined anime key art, no photorealism, no 3D, no other writing, no logos or watermark.",
+      "transparent_background": false
+    },
+    {
+      "id": "art/banner",
+      "source": "generated/art/banner.webp",
+      "prompt": "Use case: illustration-story. Asset type: extremely wide 4:1 horizontal journal banner. Demon Slayer / Kimetsu no Yaiba anime cinematic snowy night environment, crisp black ink and sophisticated hand painted background, Taisho Japan, cold blue white blizzard and warm amber lanterns. At far right a snowy traditional mountain inn among dark cedar trees with warm lit shoji and one red lantern. Sweeping blue mountains and snow-laden branches fill background, left half dark uncluttered navy sky. Add the exact elegant large ivory title 'Ce que la neige efface' across the left half, clear at small size and entirely inside margins. No subtitle, no other text, no logos, no watermark, no photorealism or 3D. Landscape should fill edge to edge with no letterbox bars.",
+      "transparent_background": false
+    }
+  ]
+}
