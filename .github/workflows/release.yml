@@ -1,0 +1,88 @@
+name: Release
+on:
+  push:
+    branches: [main]
+    paths: [module.json]
+    tags: ['v*']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: release-${{ github.repository }}
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Check release version, URLs and notes
+        id: metadata
+        run: npm run release:check
+      - name: Check whether this version is already published
+        id: existing
+        env:
+          RELEASE_TAG: ${{ steps.metadata.outputs.tag }}
+        run: |
+          if gh release view "$RELEASE_TAG" --json isDraft --jq '.isDraft' > dist/is-draft; then
+            if [ "$(cat dist/is-draft)" = "false" ]; then
+              echo "published=true" >> "$GITHUB_OUTPUT"
+              echo "$RELEASE_TAG is already published."
+            fi
+          fi
+      - name: Check that an existing tag points at this source
+        if: steps.existing.outputs.published != 'true'
+        env:
+          RELEASE_TAG: ${{ steps.metadata.outputs.tag }}
+        run: |
+          if git show-ref --verify --quiet "refs/tags/$RELEASE_TAG"; then
+            test "$(git rev-parse "refs/tags/$RELEASE_TAG^{commit}")" = "$(git rev-parse HEAD)"
+          fi
+      - name: Validate assets and shipped adventure
+        if: steps.existing.outputs.published != 'true'
+        run: npm run validate
+      - name: Package module
+        if: steps.existing.outputs.published != 'true'
+        run: npm run release
+      - name: Verify archive and checksum
+        if: steps.existing.outputs.published != 'true'
+        run: |
+          python3 - <<'PY'
+          import json, zipfile, hashlib, pathlib
+          m = json.loads(pathlib.Path("module.json").read_text(encoding="utf-8"))
+          archive = pathlib.Path(f"dist/{m['id']}.zip")
+          with zipfile.ZipFile(archive) as z:
+              assert z.testzip() is None
+              names = z.namelist()
+              assert all(n.startswith(m["id"] + "/") for n in names)
+              assert json.loads(z.read(m["id"] + "/module.json")) == m
+              assert any(n.startswith(m["id"] + "/packs/aventure/") for n in names)
+              assert not any("/node_modules/" in n or "/.qa/" in n for n in names)
+              for name in names:
+                  if "/assets/" in name and not name.endswith("/"):
+                      local = pathlib.Path(name.removeprefix(m["id"] + "/"))
+                      assert z.read(name) == local.read_bytes(), name
+          expected = pathlib.Path("dist/SHA256SUMS").read_text(encoding="utf-8").split()[0]
+          assert hashlib.sha256(archive.read_bytes()).hexdigest() == expected
+          print(len(names), "fichiers vérifiés, assets et SHA-256 conformes")
+          PY
+      - name: Publish release (create the version tag when needed)
+        if: steps.existing.outputs.published != 'true'
+        env:
+          RELEASE_TAG: ${{ steps.metadata.outputs.tag }}
+        run: |
+          if gh release view "$RELEASE_TAG" --json isDraft --jq '.isDraft' | grep -qx true; then
+            gh release upload "$RELEASE_TAG" dist/ce-que-la-neige-efface.zip dist/module.json dist/SHA256SUMS --clobber
+            gh release edit "$RELEASE_TAG" --draft=false --latest --target "$GITHUB_SHA" --title "Ce que la neige efface $RELEASE_TAG" --notes-file dist/NOTES.md
+          else
+            gh release create "$RELEASE_TAG" dist/ce-que-la-neige-efface.zip dist/module.json dist/SHA256SUMS \
+              --target "$GITHUB_SHA" --latest --title "Ce que la neige efface $RELEASE_TAG" --notes-file dist/NOTES.md
+          fi

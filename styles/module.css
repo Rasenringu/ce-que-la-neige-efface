@@ -1,0 +1,102 @@
+/* Ce que la neige efface — journaux, tableau de bord et cartes de chat. */
+.neige-journal,
+.neige-dashboard,
+.neige-chat {
+  --neige-ink: #1d2733;
+  --neige-muted: #56616d;
+  --neige-paper: #f3f1ec;
+  --neige-blue: #2f4f6b;
+  --neige-ember: #b4462a;
+  --neige-line: rgba(29, 39, 51, 0.18);
+}
+.theme-dark .neige-dashboard,
+.theme-dark .neige-chat {
+  --neige-ink: #e6e9ee;
+  --neige-muted: #a9b2bd;
+  --neige-paper: #1f262e;
+  --neige-blue: #8fb6d8;
+  --neige-ember: #f0956f;
+  --neige-line: rgba(230, 233, 238, 0.2);
+}
+
+/* Journals carry their own paper so the ink stays legible in either UI theme. */
+.neige-journal {
+  color: var(--neige-ink);
+  background: var(--neige-paper);
+  border-radius: 8px;
+  padding: 0.9rem 1.2rem;
+  font-family: "EB Garamond", Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+.neige-journal a.content-link { color: var(--neige-ink); background: rgba(47, 79, 107, 0.12); }
+.neige-journal h1,
+.neige-journal h2 { font-family: "Cinzel", Georgia, serif; color: var(--neige-blue); border: none; }
+.neige-journal h1 { border-bottom: 2px solid var(--neige-ember); padding-bottom: 0.2em; }
+.neige-journal h1 small { font-size: 0.55em; color: var(--neige-muted); font-family: "EB Garamond", Georgia, serif; }
+.neige-journal .neige-lead { font-style: italic; color: var(--neige-muted); }
+.neige-journal .neige-banner { width: 100%; border: none; border-radius: 6px; margin-bottom: 0.5em; }
+.neige-journal img { max-width: 100%; height: auto; border-radius: 4px; }
+.neige-journal blockquote.neige-read {
+  border-left: 4px solid var(--neige-ember);
+  background: rgba(180, 70, 42, 0.07);
+  margin: 0.8em 0;
+  padding: 0.6em 1em;
+  font-style: italic;
+}
+.neige-journal blockquote.neige-read::before { content: "À lire : "; font-style: normal; font-weight: 700; color: var(--neige-ember); }
+.neige-journal .neige-tip {
+  border: 1px solid var(--neige-blue);
+  border-radius: 6px;
+  background: rgba(47, 79, 107, 0.08);
+  padding: 0.5em 0.9em;
+  margin: 0.8em 0;
+}
+.neige-journal table.neige-table { border-collapse: collapse; width: 100%; margin: 0.6em 0; font-size: 0.95em; }
+.neige-journal table.neige-table th { background: rgba(47, 79, 107, 0.15); text-align: left; }
+.neige-journal table.neige-table th,
+.neige-journal table.neige-table td { border: 1px solid var(--neige-line); padding: 0.3em 0.5em; vertical-align: top; }
+.neige-journal .neige-pregen { display: grid; grid-template-columns: 160px 1fr; gap: 1em; align-items: center; }
+.neige-journal .neige-pregen img { width: 160px; border: 3px solid var(--neige-ink); }
+a.neige-action {
+  display: inline-block;
+  padding: 0 0.4em;
+  border: 1px solid var(--neige-ember, #b4462a);
+  border-radius: 4px;
+  background: rgba(180, 70, 42, 0.1);
+  color: inherit;
+  font-weight: 600;
+}
+
+/* Dashboard */
+.neige-dashboard .window-content { padding: 0.6rem; }
+.neige-dash { display: grid; gap: 0.6rem; color: var(--neige-ink); }
+.neige-dash h3 { margin: 0 0 0.3rem; font-family: "Cinzel", Georgia, serif; border-bottom: 1px solid var(--neige-line); }
+.neige-dash h4 { margin: 0.4rem 0 0.2rem; font-size: 0.95em; color: var(--neige-muted); }
+.neige-dash .hint { margin: 0.2rem 0 0; color: var(--neige-muted); font-size: 0.9em; }
+.neige-dash button { width: auto; flex: 0 0 auto; line-height: 1.6; padding: 0 0.5rem; }
+.neige-dash-status,
+.neige-dash .neige-row { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; }
+.neige-dash .badge { padding: 0.1rem 0.5rem; border-radius: 999px; border: 1px solid var(--neige-line); }
+.neige-dash .badge.on { border-color: var(--neige-blue); color: var(--neige-blue); }
+.neige-dash .badge.ok { background: rgba(47, 79, 107, 0.2); }
+.neige-dash .badge.danger { background: rgba(180, 70, 42, 0.25); }
+.neige-dash .neige-checks { display: grid; grid-template-columns: 1fr 1fr; gap: 0.2rem 0.8rem; }
+.neige-dash .neige-dawn { display: flex; flex-wrap: wrap; gap: 0.25rem; }
+.neige-dash .neige-dawn button[data-value] { width: 2rem; font-weight: 700; }
+.neige-dash .neige-dawn button.on { background: var(--neige-blue); color: #fff; }
+.neige-dash .neige-dawn button.on.late { background: #c98b2b; }
+.neige-dash .neige-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.4rem; margin-bottom: 0.4rem; }
+.neige-dash .neige-card { display: grid; padding: 0.3rem 0.4rem; border: 1px solid var(--neige-line); border-radius: 6px; text-align: left; line-height: 1.3; height: auto; }
+.neige-dash .neige-card.lit { background: rgba(240, 140, 60, 0.25); border-color: var(--neige-ember); }
+.neige-dash .neige-card.out { background: rgba(120, 150, 180, 0.15); color: var(--neige-muted); }
+.neige-dash table.neige-civilians { margin: 0 0 0.3rem; }
+.neige-dash table.neige-civilians td { padding: 0.15rem 0.3rem; }
+.neige-dash tr.agrippe td:nth-child(3),
+.neige-dash tr.dehors td:nth-child(3) { color: var(--neige-ember); font-weight: 700; }
+.neige-dash tr.mort { opacity: 0.55; text-decoration: line-through; }
+
+/* Chat */
+.neige-chat h3 { font-family: "Cinzel", Georgia, serif; margin: 0 0 0.3em; }
+.neige-chat p { margin: 0.2em 0; }
+.neige-journal img.neige-thumb { display: block; width: 72px; border: 2px solid var(--neige-ink); margin-bottom: 0.3em; }

@@ -1,0 +1,77 @@
+{
+  "id": "ce-que-la-neige-efface",
+  "title": "Ce que la neige efface",
+  "description": "One-shot Kimetsu no Yaiba pour Breathe and Live : une auberge bloquée par le blizzard, un démon qui porte le visage de ses victimes. Aventure à importer en un clic (cinq prétirés, PNJ, démons, deux scènes, journaux, pièces à remettre) et tableau de bord MJ qui automatise le final jusqu'à l'aube.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.368",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "Yann Prévot",
+      "url": "https://github.com/PrevotYann"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "breathe-and-live",
+        "type": "system",
+        "manifest": "https://github.com/PrevotYann/breathe-and-live/releases/latest/download/manifest.json",
+        "compatibility": {
+          "minimum": "0.6.0",
+          "verified": "0.6.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/module.mjs"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "packs": [
+    {
+      "name": "aventure",
+      "label": "Ce que la neige efface — aventure",
+      "path": "packs/aventure",
+      "type": "Adventure",
+      "system": "breathe-and-live",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Ce que la neige efface",
+      "sorting": "m",
+      "color": "#2f4f6b",
+      "packs": [
+        "aventure"
+      ]
+    }
+  ],
+  "media": [
+    {
+      "type": "cover",
+      "url": "modules/ce-que-la-neige-efface/assets/art/cover.webp"
+    },
+    {
+      "type": "setup",
+      "url": "modules/ce-que-la-neige-efface/assets/art/cover.webp",
+      "thumbnail": "modules/ce-que-la-neige-efface/assets/art/cover-thumb.webp"
+    }
+  ],
+  "url": "https://github.com/PrevotYann/ce-que-la-neige-efface",
+  "manifest": "https://github.com/PrevotYann/ce-que-la-neige-efface/releases/latest/download/module.json",
+  "download": "https://github.com/PrevotYann/ce-que-la-neige-efface/releases/download/v1.0.0/ce-que-la-neige-efface.zip",
+  "bugs": "https://github.com/PrevotYann/ce-que-la-neige-efface/issues",
+  "changelog": "https://github.com/PrevotYann/ce-que-la-neige-efface/blob/main/CHANGELOG.md",
+  "readme": "https://github.com/PrevotYann/ce-que-la-neige-efface#readme",
+  "license": "LICENSE"
+}
