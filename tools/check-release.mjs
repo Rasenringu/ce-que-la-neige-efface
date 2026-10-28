@@ -12,7 +12,7 @@ assert.equal(pkg.version, manifest.version, "Versions package/module différente
 assert.equal(lock.version, manifest.version, "Version du lock différente");
 assert.equal(lock.packages[""].version, manifest.version, "Version racine du lock différente");
 if (process.env.GITHUB_REF_TYPE === "tag") assert.equal(process.env.GITHUB_REF_NAME, tag, "Tag différent de la version");
-const repository = process.env.GITHUB_REPOSITORY || "PrevotYann/ce-que-la-neige-efface";
+const repository = process.env.GITHUB_REPOSITORY || "Rasenringu/ce-que-la-neige-efface";
 assert.equal(manifest.download, `https://github.com/${repository}/releases/download/${tag}/${manifest.id}.zip`);
 assert.equal(manifest.manifest, `https://github.com/${repository}/releases/latest/download/module.json`);
 const section = fs.readFileSync("CHANGELOG.md", "utf8").split(/^## /m).find(s => s.split(/\r?\n/, 1)[0].trim() === manifest.version);

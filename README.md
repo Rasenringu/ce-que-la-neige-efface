@@ -16,7 +16,7 @@ One-shot **Kimetsu no Yaiba** pour le système **Breathe and Live** sur Foundry 
 Dans Foundry : **Modules complémentaires → Installer un module**, puis collez l'URL du manifeste :
 
 ```
-https://github.com/PrevotYann/ce-que-la-neige-efface/releases/latest/download/module.json
+https://github.com/Rasenringu/ce-que-la-neige-efface/releases/latest/download/module.json
 ```
 
 ## Lancer le scénario
